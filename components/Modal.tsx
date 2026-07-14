@@ -22,7 +22,7 @@ const Modal: React.FC<ModalProps> = ({
           <Dialog.Overlay 
             className="
               bg-neutral-900/80
-              backdrop-blur-sm
+              backdrop-blur-sm 
               fixed
               inset-0
             "
