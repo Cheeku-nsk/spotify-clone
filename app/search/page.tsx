@@ -9,6 +9,7 @@ interface SearchProps {
   }>;
 }
 
+export const revalidate = 0;
 
 const Search = async({ searchParams } : SearchProps) => {
     const {title} = await searchParams;
