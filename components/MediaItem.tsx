@@ -6,7 +6,7 @@ import { Song } from "@/types";
 
 interface MediaItemProps {
     data: Song;
-    onClick?: (id:string)=>void;
+    onClick?: (id:number)=>void;
 }
 
 const MediaItem: React.FC<MediaItemProps> = ({
